@@ -2,13 +2,14 @@
 dn: ou=Groups, dc=olddomain,dc=ru
 objectclass: top
 objectclass: organizationalunit
-objectclass: 
 ou: Groups
+
 
 dn: cn=administrators, ou=Groups, dc=olddomain,dc=ru
 cn: administrators
 objectclass: top
 objectclass: posixGroup
+objectclass: groupofuniquenames
 cn: administrators
 gidNumber: 10001
 description: Group for Administrators Domain 
@@ -694,6 +695,7 @@ dn: cn=Worker, ou=Groups, dc=olddomain,dc=ru
 cn: Worker
 objectclass: top
 objectclass: posixGroup
+objectclass: groupofuniquenames
 cn: Worker
 gidNumber: 10002
 description: Group for Workers Domain 
@@ -703,6 +705,7 @@ dn: cn=TopManager, ou=Groups, dc=olddomain,dc=ru
 cn: TopManager
 objectclass: top
 objectclass: posixGroup
+objectclass: groupofuniquenames
 cn: TopManager
 gidNumber: 10003
 description: Group for TopManager Domain 
