@@ -33,6 +33,8 @@ l: Sunnyvale
 uid: scarter
 uidNumber: 10001
 gidNumber: 10001
+homeDirectory: /home/scarter
+loginShell: /bin/bash
 mail: scarter@olddomain.ru
 telephonenumber: +1 408 555 4798
 facsimiletelephonenumber: +1 408 555 9751
@@ -54,6 +56,8 @@ l: Santa Clara
 uid: tmorris
 uidNumber: 10002
 gidNumber: 10001
+homeDirectory: /home/tmorris
+loginShell: /bin/bash
 mail: tmorris@olddomain.ru
 telephonenumber: +1 408 555 9187
 facsimiletelephonenumber: +1 408 555 8473
@@ -75,6 +79,8 @@ l: Sunnyvale
 uid: kvaughan
 uidNumber: 10003
 gidNumber: 10001
+homeDirectory: /home/kvaughan
+loginShell: /bin/bash
 mail: kvaughan@olddomain.ru
 telephonenumber: +1 408 555 5625
 facsimiletelephonenumber: +1 408 555 3372
@@ -97,6 +103,8 @@ l: Cupertino
 uid: abergin
 uidNumber: 10004
 gidNumber: 10002
+homeDirectory: /home/abergin
+loginShell: /bin/bash
 mail: abergin@olddomain.ru
 telephonenumber: +1 408 555 8585
 facsimiletelephonenumber: +1 408 555 7472
@@ -118,6 +126,8 @@ l: Sunnyvale
 uid: dmiller
 uidNumber: 10005
 gidNumber: 10002
+homeDirectory: /home/dmiller
+loginShell: /bin/bash
 mail: dmiller@olddomain.ru
 telephonenumber: +1 408 555 9423
 facsimiletelephonenumber: +1 408 555 0111
@@ -139,6 +149,8 @@ l: Cupertino
 uid: gfarmer
 uidNumber: 10006
 gidNumber: 10002
+homeDirectory: /home/gfarmer
+loginShell: /bin/bash
 mail: gfarmer@olddomain.ru
 telephonenumber: +1 408 555 6201
 facsimiletelephonenumber: +1 408 555 8473
@@ -160,6 +172,8 @@ l: Santa Clara
 uid: kwinters
 uidNumber: 10007
 gidNumber: 10002
+homeDirectory: /home/kwinters
+loginShell: /bin/bash
 mail: kwinters@olddomain.ru
 telephonenumber: +1 408 555 9069
 facsimiletelephonenumber: +1 408 555 1992
@@ -181,6 +195,8 @@ l: Santa Clara
 uid: trigden
 uidNumber: 10008
 gidNumber: 10002
+homeDirectory: /home/trigden
+loginShell: /bin/bash
 mail: trigden@olddomain.ru
 telephonenumber: +1 408 555 9280
 facsimiletelephonenumber: +1 408 555 8473
@@ -202,6 +218,8 @@ l: Santa Clara
 uid: cschmith
 uidNumber: 10009
 gidNumber: 10002
+homeDirectory: /home/cschmith
+loginShell: /bin/bash
 mail: cschmith@olddomain.ru
 telephonenumber: +1 408 555 8011
 facsimiletelephonenumber: +1 408 555 4774
@@ -223,6 +241,8 @@ l: Sunnyvale
 uid: jwallace
 uidNumber: 10010
 gidNumber: 10002
+homeDirectory: /home/jwallace
+loginShell: /bin/bash
 mail: jwallace@olddomain.ru
 telephonenumber: +1 408 555 0319
 facsimiletelephonenumber: +1 408 555 8473
@@ -244,6 +264,8 @@ l: Cupertino
 uid: jwalker
 uidNumber: 10011
 gidNumber: 10002
+homeDirectory: /home/jwalker
+loginShell: /bin/bash
 mail: jwalker@olddomain.ru
 telephonenumber: +1 408 555 1476
 facsimiletelephonenumber: +1 408 555 1992
@@ -265,6 +287,8 @@ l: Santa Clara
 uid: tclow
 uidNumber: 10012
 gidNumber: 10002
+homeDirectory: /home/tclow
+loginShell: /bin/bash
 mail: tclow@olddomain.ru
 telephonenumber: +1 408 555 8825
 facsimiletelephonenumber: +1 408 555 1992
@@ -286,6 +310,8 @@ l: Sunnyvale
 uid: rdaughert
 uidNumber: 10014
 gidNumber: 10003
+homeDirectory: /home/rdaugherty
+loginShell: /bin/bash
 mail: rdaugherty@olddomain.ru
 telephonenumber: +1 408 555 1296
 facsimiletelephonenumber: +1 408 555 1992
@@ -308,6 +334,8 @@ l: Cupertino
 uid: jreuter
 uidNumber: 10015
 gidNumber: 10003
+homeDirectory: /home/jreuter
+loginShell: /bin/bash
 mail: jreuter@olddomain.ru
 telephonenumber: +1 408 555 1122
 facsimiletelephonenumber: +1 408 555 8721
@@ -329,6 +357,8 @@ l: Sunnyvale
 uid: tmason
 uidNumber: 10016
 gidNumber: 10003
+homeDirectory: /home/tmason
+loginShell: /bin/bash
 mail: tmason@olddomain.ru
 telephonenumber: +1 408 555 1596
 facsimiletelephonenumber: +1 408 555 9751
@@ -350,6 +380,8 @@ l: Santa Clara
 uid: bhal
 uidNumber: 10017
 gidNumber: 10003
+homeDirectory: /home/bhall
+loginShell: /bin/bash
 mail: bhall@olddomain.ru
 telephonenumber: +1 408 555 6067
 facsimiletelephonenumber: +1 408 555 0111
@@ -371,6 +403,8 @@ l: Cupertino
 uid: btalbot
 uidNumber: 10018
 gidNumber: 10003
+homeDirectory: /home/btalbot
+loginShell: /bin/bash
 mail: btalbot@olddomain.ru
 telephonenumber: +1 408 555 4992
 facsimiletelephonenumber: +1 408 555 8473
@@ -393,6 +427,8 @@ l: Santa Clara
 uid: mward
 uidNumber: 10019
 gidNumber: 10003
+homeDirectory: /home/mward
+loginShell: /bin/bash
 mail: mward@olddomain.ru
 telephonenumber: +1 408 555 5688
 facsimiletelephonenumber: +1 408 555 0111
@@ -414,6 +450,8 @@ l: Sunnyvale
 uid: bjablons
 uidNumber: 10020
 gidNumber: 10003
+homeDirectory: /home/bjablons
+loginShell: /bin/bash
 mail: bjablons@olddomain.ru
 telephonenumber: +1 408 555 8815
 facsimiletelephonenumber: +1 408 555 4774
@@ -435,6 +473,8 @@ l: Santa Clara
 uid: jmcFarla
 uidNumber: 10021
 gidNumber: 10003
+homeDirectory: /home/jmcFarla
+loginShell: /bin/bash
 mail: jmcFarla@olddomain.ru
 telephonenumber: +1 408 555 2567
 facsimiletelephonenumber: +1 408 555 4774
@@ -456,6 +496,8 @@ l: Santa Clara
 uid: llabonte
 uidNumber: 10022
 gidNumber: 10003
+homeDirectory: /home/llabonte
+loginShell: /bin/bash
 mail: llabonte@olddomain.ru
 telephonenumber: +1 408 555 0957
 facsimiletelephonenumber: +1 408 555 8473
@@ -476,6 +518,8 @@ l: Cupertino
 uid: jcampaig
 uidNumber: 10023
 gidNumber: 10003
+homeDirectory: /home/jcampaig
+loginShell: /bin/bash
 mail: jcampaig@olddomain.ru
 telephonenumber: +1 408 555 1660
 facsimiletelephonenumber: +1 408 555 9751
@@ -497,6 +541,8 @@ l: Sunnyvale
 uid: bhal2
 uidNumber: 10023
 gidNumber: 10003
+homeDirectory: /home/bhal2
+loginShell: /bin/bash
 mail: bhal2@olddomain.ru
 telephonenumber: +1 408 555 4491
 facsimiletelephonenumber: +1 408 555 8473
@@ -518,6 +564,8 @@ l: Santa Clara
 uid: alutz
 uidNumber: 10024
 gidNumber: 10003
+homeDirectory: /home/alutz
+loginShell: /bin/bash
 mail: alutz@olddomain.ru
 telephonenumber: +1 408 555 6505
 facsimiletelephonenumber: +1 408 555 4774
@@ -540,6 +588,8 @@ l: Santa Clara
 uid: btalbo2
 uidNumber: 10025
 gidNumber: 10003
+homeDirectory: /home/btalbo2
+loginShell: /bin/bash
 mail: btalbo2@olddomain.ru
 telephonenumber: +1 408 555 4234
 facsimiletelephonenumber: +1 408 555 9332
@@ -561,6 +611,8 @@ l: Santa Clara
 uid: achassi
 uidNumber: 10026
 gidNumber: 10003
+homeDirectory: /home/achassin
+loginShell: /bin/bash
 mail: achassin@olddomain.ru
 telephonenumber: +1 408 555 9972
 facsimiletelephonenumber: +1 408 555 3372
@@ -582,6 +634,8 @@ l: Santa Clara
 uid: hmiller
 uidNumber: 10027
 gidNumber: 10003
+homeDirectory: /home/hmiller
+loginShell: /bin/bash
 mail: hmiller@olddomain.ru
 telephonenumber: +1 408 555 9804
 facsimiletelephonenumber: +1 408 555 9332
@@ -604,6 +658,8 @@ l: Santa Clara
 uid: jcampai2
 uidNumber: 10028
 gidNumber: 10003
+homeDirectory: /home/jcampai2
+loginShell: /bin/bash
 mail: jcampai2@olddomain.ru
 telephonenumber: +1 408 555 7393
 facsimiletelephonenumber: +1 408 555 3372
@@ -625,6 +681,8 @@ l: Sunnyvale
 uid: lulrich
 uidNumber: 10029
 gidNumber: 10003
+homeDirectory: /home/lulrich
+loginShell: /bin/bash
 mail: lulrich@olddomain.ru
 telephonenumber: +1 408 555 8652
 facsimiletelephonenumber: +1 408 555 3825
