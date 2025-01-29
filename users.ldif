@@ -1,0 +1,588 @@
+  
+dn: dc=olddomain,dc=ru
+objectclass: top
+objectclass: domain
+dc: olddomain
+
+dn: ou=Groups, dc=olddomain,dc=ru
+objectclass: top
+objectclass: organizationalunit
+ou: Groups
+
+dn: cn=admin, ou=Groups, dc=olddomain,dc=ru
+cn: admin
+objectclass: top
+objectclass: groupofuniquenames
+ou: Groups
+uniquemember: uid=kvaughan, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=rdaugherty, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=hmiller, ou=People, dc=olddomain,dc=ru
+
+dn: ou=People, dc=olddomain,dc=ru
+objectclass: top
+objectclass: organizationalunit
+ou: People
+
+dn: ou=Special Users,dc=olddomain,dc=ru
+objectclass: top
+objectclass: organizationalUnit
+ou: Special Users
+description: Special Administrative Accounts
+
+dn: uid=scarter, ou=People, dc=olddomain,dc=ru
+cn: Sam Carter
+sn: Carter
+givenname: Sam
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Sunnyvale
+uid: scarter
+mail: scarter@olddomain.ru
+telephonenumber: +1 408 555 4798
+facsimiletelephonenumber: +1 408 555 9751
+roomnumber: 4612
+userpassword: sprain
+manager: uid=dmiller, ou=People, dc=olddomain,dc=ru
+
+dn: uid=tmorris, ou=People, dc=olddomain,dc=ru
+cn: Ted Morris
+sn: Morris
+givenname: Ted
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: tmorris
+mail: tmorris@olddomain.ru
+telephonenumber: +1 408 555 9187
+facsimiletelephonenumber: +1 408 555 8473
+roomnumber: 4117
+userpassword: irrefutable
+manager: uid=dmiller, ou=People, dc=olddomain,dc=ru
+
+dn: uid=kvaughan, ou=People, dc=olddomain,dc=ru
+cn: Kirsten Vaughan
+sn: Vaughan
+givenname: Kirsten
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Sunnyvale
+uid: kvaughan
+mail: kvaughan@olddomain.ru
+telephonenumber: +1 408 555 5625
+facsimiletelephonenumber: +1 408 555 3372
+roomnumber: 2871
+userpassword: bribery
+manager: uid=jvedder, ou=People, dc=olddomain,dc=ru
+
+
+dn: uid=abergin, ou=People, dc=olddomain,dc=ru
+cn: Andy Bergin
+sn: Bergin
+givenname: Andy
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Cupertino
+uid: abergin
+mail: abergin@olddomain.ru
+telephonenumber: +1 408 555 8585
+facsimiletelephonenumber: +1 408 555 7472
+roomnumber: 3472
+userpassword: inflict
+manager: uid=ealexand, ou=People, dc=olddomain,dc=ru
+
+dn: uid=dmiller, ou=People, dc=olddomain,dc=ru
+cn: David Miller
+sn: Miller
+givenname: David
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Sunnyvale
+uid: dmiller
+mail: dmiller@olddomain.ru
+telephonenumber: +1 408 555 9423
+facsimiletelephonenumber: +1 408 555 0111
+roomnumber: 4135
+userpassword: gosling
+manager: uid=bparker, ou=People, dc=olddomain,dc=ru
+
+dn: uid=gfarmer, ou=People, dc=olddomain,dc=ru
+cn: Gern Farmer
+sn: Farmer
+givenname: Gern
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Cupertino
+uid: gfarmer
+mail: gfarmer@olddomain.ru
+telephonenumber: +1 408 555 6201
+facsimiletelephonenumber: +1 408 555 8473
+roomnumber: 1269
+userpassword: ruling
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=kwinters, ou=People, dc=olddomain,dc=ru
+cn: Kelly Winters
+sn: Winters
+givenname: Kelly
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: kwinters
+mail: kwinters@olddomain.ru
+telephonenumber: +1 408 555 9069
+facsimiletelephonenumber: +1 408 555 1992
+roomnumber: 4178
+userpassword: forsook
+manager: uid=cnewport, ou=People, dc=olddomain,dc=ru
+
+dn: uid=trigden, ou=People, dc=olddomain,dc=ru
+cn: Torrey Rigden
+sn: Rigden
+givenname: Torrey
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: trigden
+mail: trigden@olddomain.ru
+telephonenumber: +1 408 555 9280
+facsimiletelephonenumber: +1 408 555 8473
+roomnumber: 3584
+userpassword: sensitive
+manager: uid=cnewport, ou=People, dc=olddomain,dc=ru
+
+dn: uid=cschmith, ou=People, dc=olddomain,dc=ru
+cn: Chris Schmith
+sn: Schmith
+givenname: Chris
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: cschmith
+mail: cschmith@olddomain.ru
+telephonenumber: +1 408 555 8011
+facsimiletelephonenumber: +1 408 555 4774
+roomnumber: 0416
+userpassword: hypotenuse
+manager: uid=jvedder, ou=People, dc=olddomain,dc=ru
+
+dn: uid=jwallace, ou=People, dc=olddomain,dc=ru
+cn: Judy Wallace
+sn: Wallace
+givenname: Judy
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Sunnyvale
+uid: jwallace
+mail: jwallace@olddomain.ru
+telephonenumber: +1 408 555 0319
+facsimiletelephonenumber: +1 408 555 8473
+roomnumber: 1033
+userpassword: linear
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=jwalker, ou=People, dc=olddomain,dc=ru
+cn: John Walker
+sn: Walker
+givenname: John
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Cupertino
+uid: jwalker
+mail: jwalker@olddomain.ru
+telephonenumber: +1 408 555 1476
+facsimiletelephonenumber: +1 408 555 1992
+roomnumber: 3915
+userpassword: dogleg
+manager: uid=ealexand, ou=People, dc=olddomain,dc=ru
+
+dn: uid=tclow, ou=People, dc=olddomain,dc=ru
+cn: Torrey Clow
+sn: Clow
+givenname: Torrey
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: tclow
+mail: tclow@olddomain.ru
+telephonenumber: +1 408 555 8825
+facsimiletelephonenumber: +1 408 555 1992
+roomnumber: 4376
+userpassword: cardreader
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=rdaugherty, ou=People, dc=olddomain,dc=ru
+cn: Robert Daugherty
+sn: Daugherty
+givenname: Robert
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Sunnyvale
+uid: rdaugherty
+mail: rdaugherty@olddomain.ru
+telephonenumber: +1 408 555 1296
+facsimiletelephonenumber: +1 408 555 1992
+roomnumber: 0194
+userpassword: apples
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+
+dn: uid=jreuter, ou=People, dc=olddomain,dc=ru
+cn: Jayne Reuter
+sn: Reuter
+givenname: Jayne
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Cupertino
+uid: jreuter
+mail: jreuter@olddomain.ru
+telephonenumber: +1 408 555 1122
+facsimiletelephonenumber: +1 408 555 8721
+roomnumber: 2942
+userpassword: destroy
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=tmason, ou=People, dc=olddomain,dc=ru
+cn: Torrey Mason
+sn: Mason
+givenname: Torrey
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Sunnyvale
+uid: tmason
+mail: tmason@olddomain.ru
+telephonenumber: +1 408 555 1596
+facsimiletelephonenumber: +1 408 555 9751
+roomnumber: 1124
+userpassword: squatted
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=bhall, ou=People, dc=olddomain,dc=ru
+cn: Benjamin Hall
+sn: Hall
+givenname: Benjamin
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: bhall
+mail: bhall@olddomain.ru
+telephonenumber: +1 408 555 6067
+facsimiletelephonenumber: +1 408 555 0111
+roomnumber: 2511
+userpassword: oranges
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=btalbot, ou=People, dc=olddomain,dc=ru
+cn: Brad Talbot
+sn: Talbot
+givenname: Brad
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Cupertino
+uid: btalbot
+mail: btalbot@olddomain.ru
+telephonenumber: +1 408 555 4992
+facsimiletelephonenumber: +1 408 555 8473
+roomnumber: 3532
+userpassword: trident
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=mward, ou=People, dc=olddomain,dc=ru
+cn: Marcus Ward
+sn: Ward
+givenname: Marcus
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: mward
+mail: mward@olddomain.ru
+telephonenumber: +1 408 555 5688
+facsimiletelephonenumber: +1 408 555 0111
+roomnumber: 1707
+userpassword: normal
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=bjablons, ou=People, dc=olddomain,dc=ru
+cn: Barbara Jablonski
+sn: Jablonski
+givenname: Barbara
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Sunnyvale
+uid: bjablons
+mail: bjablons@olddomain.ru
+telephonenumber: +1 408 555 8815
+facsimiletelephonenumber: +1 408 555 4774
+roomnumber: 0906
+userpassword: strawberry
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=jmcFarla, ou=People, dc=olddomain,dc=ru
+cn: Judy McFarland
+sn: McFarland
+givenname: Judy
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: jmcFarla
+mail: jmcFarla@olddomain.ru
+telephonenumber: +1 408 555 2567
+facsimiletelephonenumber: +1 408 555 4774
+roomnumber: 2359
+userpassword: walnut
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=llabonte, ou=People, dc=olddomain,dc=ru
+cn: Lee Labonte
+sn: Labonte
+givenname: Lee
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: llabonte
+mail: llabonte@olddomain.ru
+telephonenumber: +1 408 555 0957
+facsimiletelephonenumber: +1 408 555 8473
+roomnumber: 2854
+userpassword: sourdough
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=jcampaig, ou=People, dc=olddomain,dc=ru
+cn: Jody Campaigne
+sn: Campaigne
+givenname: Jody
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Cupertino
+uid: jcampaig
+mail: jcampaig@olddomain.ru
+telephonenumber: +1 408 555 1660
+facsimiletelephonenumber: +1 408 555 9751
+roomnumber: 4385
+userpassword: grapevine
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=bhal2, ou=People, dc=olddomain,dc=ru
+cn: Barbara Hall
+sn: Hall
+givenname: Barbara
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Sunnyvale
+uid: bhal2
+mail: bhal2@olddomain.ru
+telephonenumber: +1 408 555 4491
+facsimiletelephonenumber: +1 408 555 8473
+roomnumber: 2758
+userpassword: truths
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=alutz, ou=People, dc=olddomain,dc=ru
+cn: Alexander Lutz
+sn: Lutz
+givenname: Alexander
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: alutz
+mail: alutz@olddomain.ru
+telephonenumber: +1 408 555 6505
+facsimiletelephonenumber: +1 408 555 4774
+roomnumber: 1327
+userpassword: northward
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=btalbo2, ou=People, dc=olddomain,dc=ru
+cn: Bjorn Talbot
+sn: Talbot
+givenname: Bjorn
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: btalbo2
+mail: btalbo2@olddomain.ru
+telephonenumber: +1 408 555 4234
+facsimiletelephonenumber: +1 408 555 9332
+roomnumber: 1205
+userpassword: corduroy
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=achassin, ou=People, dc=olddomain,dc=ru
+cn: Ashley Chassin
+sn: Chassin
+givenname: Ashley
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: achassin
+mail: achassin@olddomain.ru
+telephonenumber: +1 408 555 9972
+facsimiletelephonenumber: +1 408 555 3372
+roomnumber: 0466
+userpassword: duopolist
+manager: uid=trigden, ou=People, dc=olddomain,dc=ru
+
+dn: uid=hmiller, ou=People, dc=olddomain,dc=ru
+cn: Harry Miller
+sn: Miller
+givenname: Harry
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: hmiller
+mail: hmiller@olddomain.ru
+telephonenumber: +1 408 555 9804
+facsimiletelephonenumber: +1 408 555 9332
+roomnumber: 4304
+userpassword: hillock
+manager: uid=kwinters, ou=People, dc=olddomain,dc=ru
+
+
+dn: uid=jcampai2, ou=People, dc=olddomain,dc=ru
+cn: Jeffrey Campaigne
+sn: Campaigne
+givenname: Jeffrey
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Santa Clara
+uid: jcampai2
+mail: jcampai2@olddomain.ru
+telephonenumber: +1 408 555 7393
+facsimiletelephonenumber: +1 408 555 3372
+roomnumber: 1377
+userpassword: nominee
+manager: uid=kwinters, ou=People, dc=olddomain,dc=ru
+
+dn: uid=lulrich, ou=People, dc=olddomain,dc=ru
+cn: Lee Ulrich
+sn: Ulrich
+givenname: Lee
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+ou: People
+l: Sunnyvale
+uid: lulrich
+mail: lulrich@olddomain.ru
+telephonenumber: +1 408 555 8652
+facsimiletelephonenumber: +1 408 555 3825
+roomnumber: 0985
+userpassword: attribution
+manager: uid=kwinters, ou=People, dc=olddomain,dc=ru
+
+dn: cn=Worker,ou=groups,dc=olddomain,dc=ru
+objectclass: top
+objectclass: groupOfUniqueNames
+cn: Worker
+ou: groups
+uniquemember: uid=scarter, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=tmorris, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=jcampai2, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=achassin, ou=People, dc=olddomain,dc=ru
+
+
+dn: cn=TopManager,ou=groups,dc=olddomain,dc=ru
+objectclass: top
+objectclass: groupOfUniqueNames
+cn: TopManager
+ou: groups
+uniquemember: uid=kvaughan, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=cschmith, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=abergin, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=jwalker, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=lulrich, ou=People, dc=olddomain,dc=ru
+
+
+
+dn: cn=admin,ou=groups,dc=olddomain,dc=ru
+objectclass: top
+objectclass: groupOfUniqueNames
+cn: admin
+ou: groups
+uniquemember: uid=kwinters, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=trigden, ou=People, dc=olddomain,dc=ru
+uniquemember: uid=alutz, ou=People, dc=olddomain,dc=ru
